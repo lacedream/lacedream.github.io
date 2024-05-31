@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dress up!</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body> 
+
+
+ <!-- all of the base images-->
+<img id="base" class="base" src="Andre/base.png">
+<img id="hairdown" class="base" src="Andre/hair2.png" style="z-index: 3;">
+<img id="hairup" class="base" src="Andre/hair1.png"style="z-index: 6;">
+
+<img id="pants1" src="Andre/pants1.png" class="clothing" style="z-index: 3;">
+<img id="pants2" src="Andre/pants2.png" class="clothing" style="z-index: 3;">
+<img id="pants3" src="Andre/pants3.png" class="clothing" style="z-index: 3;">
+<img id="pants4" src="Andre/pants4.png" class="clothing" style="z-index: 3;">
+<img id="pants5" src="Andre/pants5.png" class="clothing" style="z-index: 3;">
+<img id="tank1" src="Andre/tank1.png" class="clothing" style="z-index: 4;">
+<img id="tank2" src="Andre/tank2.png" class="clothing" style="z-index: 4;">
+<img id="tank3" src="Andre/tank3.png" class="clothing" style="z-index: 4;">
+<img id="top1" src="Andre/top1.png" class="clothing" style="z-index: 3;">
+<img id="top2" src="Andre/top2.png" class="clothing" style="z-index: 4;">
+<img id="top3" src="Andre/top3.png" class="clothing" style="z-index: 4;">
+<img id="boots" src="Andre/boots.png" class="clothing" style="z-index: 2;">
+<img id="bag1" src="Andre/bag1.png" class="clothing" style="z-index: 8;">
+<img id="bag2" src="Andre/bag2.png" class="clothing" style="z-index: 8;">
+<img id="hat" src="Andre/hat.png" class="clothing" style="z-index: 8;">
+<img id="glasses1" src="Andre/glasses1.png" class="clothing" style="z-index: 7;">
+<img id="glasses2" src="Andre/glasses2.png" class="clothing" style="z-index: 7;">
+<img id="glasses3" src="Andre/glasses3.png" class="clothing" style="z-index: 7;">
+<img id="belt" src="Andre/belt.png".png class="clothing" style="z-index: 6;">
+<img id="coat1" src="Andre/coat1.png" class="clothing" style="z-index: 7;">
+<img id="acc1" src="Andre/acc1.png" class="clothing" style="z-index: 7;">
+<img id="sandals" src="Andre/sandals.png" class="clothing" style="z-index: 2;">
+<img id="pants6" src="Andre/pants6.png" class="clothing" style="z-index: 3;">
+<img id="pants7" src="Andre/pants7.png" class="clothing" style="z-index: 3;">
+<img id="hat2" src="Andre/hat2.png" class="clothing" style="z-index: 8;">
+<img id="top4" src="Andre/top4.png" class="clothing" style="z-index: 5;">
+<img id="top5" src="Andre/top5.png" class="clothing" style="z-index: 5;">
+<img id="top6" src="Andre/top6.png" class="clothing" style="z-index: 5;">
+<img id="top7" src="Andre/top7.png" class="clothing" style="z-index: 5;">
+<img id="acc2" src="Andre/acc2.png" class="clothing" style="z-index: 2;">
+<img id="acc3" src="Andre/acc3.png" class="clothing" style="z-index: 8;">
+<img id="boots2" src="Andre/boots2.png" class="clothing" style="z-index: 2;">
+<img id="eyepatch" src="Andre/eyepatch.png" class="clothing" style="z-index: 2;">
+<img id="eyepatch2" src="Andre/eyepatch2.png" class="clothing" style="z-index: 2;">
+<img id="acc4" src="Andre/acc4.png" class="clothing" style="z-index: 5;">
+<img id="pants8" src="Andre/pants8.png" class="clothing" style="z-index: 3;">
+<img id="pants9" src="Andre/pants9.png" class="clothing" style="z-index: 3;">
+
+<div class="container">
+    <img src="https://enchantments.carrd.co/assets/images/gallery09/9f63c3a8.gif?v=91d4e59c" style="position: fixed; top: 0%;">
+    <img src="https://enchantments.carrd.co/assets/images/gallery09/9f63c3a8.gif?v=91d4e59c" style="position: fixed; bottom: 0%;">
+    <button onclick="toggleImage('top1', this)" class="clothingButton" style="background-image: url('Andre/top1icon.png')">  </button>
+    <button onclick="toggleImage('top2', this)" class="clothingButton" style="background-image: url('Andre/top2icon.png')">  </button>
+    <button onclick="toggleImage('top3', this)" class="clothingButton" style="background-image: url('Andre/top3icon.png')">  </button>
+    <button onclick="toggleImage('top4', this)" class="clothingButton" style="background-image: url('Andre/top4icon.png')">  </button>
+    <button onclick="toggleImage('top5', this)" class="clothingButton" style="background-image: url('Andre/top5icon.png')">  </button>
+    <button onclick="toggleImage('tank1', this)" class="clothingButton" style="background-image: url('Andre/tank1icon.png')">  </button>
+    <button onclick="toggleImage('tank2', this)" class="clothingButton" style="background-image: url('Andre/tank2icon.png')">  </button>
+    <button onclick="toggleImage('tank3', this)" class="clothingButton" style="background-image: url('Andre/tank3icon.png')">  </button>
+    <button onclick="toggleImage('top6', this)" class="clothingButton" style="background-image: url('Andre/top6icon.png')">  </button>
+    <button onclick="toggleImage('top7', this)" class="clothingButton" style="background-image: url('Andre/top7icon.png')">  </button>
+    <button onclick="toggleImage('coat1', this)" class="clothingButton" style="background-image: url('Andre/coat1icon.png')">  </button>
+    <button onclick="toggleImage('pants1', this)" class="clothingButton" style="background-image: url('Andre/pants1icon.png')">  </button>
+    <button onclick="toggleImage('pants2', this)" class="clothingButton" style="background-image: url('Andre/pants2icon.png')">  </button>
+    <button onclick="toggleImage('pants3', this)" class="clothingButton" style="background-image: url('Andre/pants3icon.png')">  </button>
+    <button onclick="toggleImage('pants4', this)" class="clothingButton" style="background-image: url('Andre/pants4icon.png')">  </button>
+    <button onclick="toggleImage('pants5', this)" class="clothingButton" style="background-image: url('Andre/pants5icon.png')">  </button>
+    <button onclick="toggleImage('pants6', this)" class="clothingButton" style="background-image: url('Andre/pants6icon.png')">  </button>
+    <button onclick="toggleImage('pants7', this)" class="clothingButton" style="background-image: url('Andre/pants7icon.png')">  </button>
+    <button onclick="toggleImage('pants8', this)" class="clothingButton" style="background-image: url('Andre/pants8icon.png')">  </button>
+    <button onclick="toggleImage('pants9', this)" class="clothingButton" style="background-image: url('Andre/pants9icon.png')">  </button>
+    <button onclick="toggleImage('boots', this)" class="clothingButton" style="background-image: url('Andre/bootsicon.png')">  </button>
+    <button onclick="toggleImage('boots2', this)" class="clothingButton" style="background-image: url('Andre/boots2icon.png')">  </button>
+    <button onclick="toggleImage('sandals', this)" class="clothingButton" style="background-image: url('Andre/sandalsicon.png')">  </button>
+    <button onclick="toggleImage('bag1', this)" class="clothingButton" style="background-image: url('Andre/bag1icon.png')">  </button>
+    <button onclick="toggleImage('bag2', this)" class="clothingButton" style="background-image: url('Andre/bag2icon.png')">  </button>
+    <button onclick="toggleImage('hat', this)" class="clothingButton" style="background-image: url('Andre/haticon.png')">  </button>
+    <button onclick="toggleImage('hat2', this)" class="clothingButton" style="background-image: url('Andre/hat2icon.png')">  </button>
+    <button onclick="toggleImage('glasses1', this)" class="clothingButton" style="background-image: url('Andre/glasses1icon.png')">  </button>
+    <button onclick="toggleImage('glasses2', this)" class="clothingButton" style="background-image: url('Andre/glasses2icon.png')">  </button>
+    <button onclick="toggleImage('glasses3', this)" class="clothingButton" style="background-image: url('Andre/glasses3icon.png')">  </button>
+    <button onclick="toggleImage('belt', this)" class="clothingButton" style="background-image: url('Andre/belticon.png')">  </button>
+    <button onclick="toggleImage('acc1', this)" class="clothingButton" style="background-image: url('Andre/acc1icon.png')">  </button>
+    <button onclick="toggleImage('acc2', this)" class="clothingButton" style="background-image: url('Andre/acc2icon.png')">  </button>
+    <button onclick="toggleImage('acc3', this)" class="clothingButton" style="background-image: url('Andre/acc3icon.png')">  </button>
+    <button onclick="toggleImage('eyepatch', this)" class="clothingButton" style="background-image: url('Andre/eyepatchicon.png')">  </button>
+    <button onclick="toggleImage('eyepatch2', this)" class="clothingButton" style="background-image: url('Andre/eyepatch2icon.png')">  </button>
+    <button onclick="toggleImage('acc4', this)" class="clothingButton" style="background-image: url('Andre/acc4icon.png')">  </button>
+    <button onclick="toggleImage('', this)" class="clothingButton" style="background-image: url('Andre/icon.png')">  </button>
+
+</div>
+
+<div>
+<img src="https://scft.carrd.co/assets/images/gallery10/0383d8ed.gif?v=ac36d485">
+<button onclick="refresh()" id="textButton" style>RESET</button>
+
+<img src="https://scft.carrd.co/assets/images/gallery10/0383d8ed.gif?v=ac36d485">
+<button onclick="tieHair('hairup','hairdown')" id="textButton">HAIR UP/DOWN</button>
+
+<img src="https://scft.carrd.co/assets/images/gallery10/0383d8ed.gif?v=ac36d485">
+</div>
+
+<script src="dressupcode.js"></script>
+</body>
