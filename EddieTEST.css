@@ -1,3 +1,101 @@
+body  {background-color: rgb(247, 197, 211); }
+
+
+#hairdown {
+    display: none;
+}
+
+
+.base{
+    position: absolute;
+    top: 20px;
+    bottom: 20px;
+    left: 0%;
+    z-index: 1;
+    max-width: 100%;
+    height: 100%
+}
+
+
+.clothing{
+    position: absolute;
+    top: 20px;
+    bottom: 20px;
+    left: -2%;
+    z-index: 2;
+    max-width: 100%;
+    height: 100%
+}
+
+.clothingButton{
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+
+    background-color: rgba(192, 44, 108, 0.326);
+    color: antiquewhite;
+    border-style: ridge;
+    border-radius:5px; 
+    border-width: 4px;
+    border-color: blanchedalmond;
+    margin: 1%;
+}
+
+.clothingButton.clicked{
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+
+    background-color: rgba(255, 220, 236, 0.641);
+    color: antiquewhite;
+    border-style: ridge;
+    border-radius:5px; 
+    border-width: 4px;
+    border-color: blanchedalmond;
+    margin: 1%;
+}
+
+
+
+.container {
+    top: 50px;
+    left: 27%;
+    bottom: 5%;
+    right: 2%;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url(https://gifs.crd.co/assets/images/gallery07/6f54836c.jpg?v=ef433a6f);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin: 0 auto;
+    border-style: ridge;
+    border-color: blanchedalmond;
+    border-width: 5px;
+    overflow-y: auto;
+  }
+
+  #textButton{
+    position:relative;
+    background-color: rgba(255, 250, 235, 0.579);
+    width: auto;
+    height: 50px;
+    font-size: large;
+    color: rgb(188, 109, 133);
+    border-style: ridge;
+    border-radius:5px; 
+    border-width: 4px;
+    border-color: rgb(255, 243, 225);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    z-index: 10;
+}
+
+
 #closeGalleryButton {
     position: absolute;
     top: 10px;
