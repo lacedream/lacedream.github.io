@@ -1,0 +1,15 @@
+#closeGalleryButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(255, 250, 235, 0.579);
+    width: auto;
+    height: 50px;
+    font-size: large;
+    color: rgb(188, 109, 133);
+    border-style: ridge;
+    border-radius: 5px;
+    border-width: 4px;
+    border-color: rgb(255, 243, 225);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
