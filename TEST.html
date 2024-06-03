@@ -54,6 +54,10 @@
 <img id="pants9" src="Andre/pants9.png" class="clothing" style="z-index: 3;">
 <img id="pants10" src="Andre/pants10.png" class="clothing" style="z-index: 3;">
 
+ 
+<canvas id="canvas" style="display: none;"></canvas>
+
+
 <div class="container">
     <img src="https://gifs.crd.co/assets/images/gallery09/8583ed39.gif?v=ef433a6f" style="position: fixed; top: 0%;" width="70%">
     <img src="https://gifs.crd.co/assets/images/gallery09/8583ed39.gif?v=ef433a6f" style="position: fixed; bottom: 0%;" width="70%">
@@ -99,18 +103,24 @@
 
 </div>
 
-<div>
 <button onclick="refresh()" id="textButton" style>RESET</button>
 
 <button onclick="tieHair('hairup','hairdown')" id="textButton">HAIR UP/DOWN</button>
 
 <a href = "https://lacedream.github.io/AndreDressUp.html">
 <button id="textButton">SWITCH CHARACTER</button>
+<button onclick="showGallery()" id="textButton">GALLERY</button>
+ 
+
+<div id="gallery" class="gallery" style="display: none;">
+    <div id="galleryContent" class="galleryContent"></div>
+    <button onclick="closeGallery()" id="closeGalleryButton">CLOSE</button>
+</div>
 
 <a>
 </div>
 
 
 
-<script src="dressupcode.js"></script>
+<script src="dressupcodeTEST.js"></script>
 </body>
